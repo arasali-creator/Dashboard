@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/personal-info.css">
+
+    <!-- Metrial Icon -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp">
+
+
+    <!-- Latest compiled and minified CSS -->
+
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <!-- <img src="images/argon.png" alt=""> -->
+                    <h2 class="title1">IUB<span class="danger">Alumni</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">cancel</span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="index.html">
+                    <span class="material-icons-sharp">grid_view</span>
+                    <h3>Dashboard</h3>
+                </a>
+
+                <a href="./personal-info.html" class="active">
+                    <span class="material-icons-sharp">person_outline</span>
+                    <h3>Personal Info</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons-sharp">bookmark_border</span>
+                    <h3>Educational </h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons-sharp">insights</span>
+                    <h3>Work Experience</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons-sharp">message</span>
+                    <h3>Post a Job</h3>
+                    <span class="message-count">26</span>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons-sharp">inventory_2</span>
+                    <h3>Search your fellow</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons-sharp">report</span>
+                    <h3>Reports</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons-sharp">settings</span>
+                    <h3>Settings</h3>
+                </a>
+
+                <a href="#">
+                    <span class="material-icons-sharp">add</span>
+                    <h3>Add Products</h3>
+                </a>
+                <div class="w">
+                    <a href="#">
+                        <span class="material-icons-sharp">logout</span>
+                        <h3><b>Logout</b> </h3>
+                    </a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- End of Aside -->
+
+        <main-p>
+            <div class="top-header">
+                <h1 class="h1-top">Personl information</h1>
+            </div>
+            <form>
+                <ul class="form-style-1">
+
+                    <li><label class="field-divided ">Full Name <span class="required">*</span></label><input
+                            type="text" name="field1" class="field-divided"
+                            placeholder="First" /> <input type="text" name="field2"
+                            class="field-divided" placeholder="Last" />
+                    </li>
+                    
+                     <div class="cnic-main">   
+                    <li>
+                        <label>CNIC Number <span class="required">*</span></label>
+                        <input type="email" name="field3" class=""/>
+                    </li> &nbsp;
+
+                    <li>
+                        <label>Email <span class="required">*</span></label>
+                        <input type="email" name="field3" class=""/>
+                    </li>
+                    </div>
+                    <li>
+                        <label>Subject</label>
+                        <select name="field4" class="field-select">
+                            <option value="Advertise">Advertise</option>
+                            <option value="Partnership">Partnership</option>
+                            <option value="General Question">General</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label>Your Message <span class="required">*</span></label>
+                        <textarea name="field5" id="field5"
+                            class="field-long field-textarea"></textarea>
+                    </li>
+                    <li>
+                        <input type="submit" value="Submit" />
+                    </li>
+                </ul>
+            </form>
+
+
+        </main-p>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
